@@ -1,0 +1,48 @@
+@media (max-width: 991px)
+{
+    #mynav ul li
+    {
+        margin: 10px 0;
+    }
+    .slider_next, .slider_previous
+    {
+        display: none;
+    }
+}
+
+@media (max-width: 730px)
+{
+    .banner .carousel-caption
+    {
+        display: none;
+    }
+}
+
+@media (max-width: 768px)
+{
+    .services
+    {
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1251px)
+{
+    .my_work_overlay_contents h3
+    {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    .my_work_overlay_contents p
+    {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    
+    .my_work_overlay_contents i
+    {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+}
